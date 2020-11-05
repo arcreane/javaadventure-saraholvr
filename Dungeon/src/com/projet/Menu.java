@@ -15,9 +15,9 @@ public class Menu {
         int choix = lectureClavier.nextInt();
 
         if (choix == 1) {
-            System.out.println(" Tagazok à toi, mon ami. Paix et guérison sur ton peuple"); // Sorti du jeu
+            System.out.println(" Tagazok à toi, mon ami. Paix et guérison sur ton peuple"); // Début du jeu
         } else
-            System.out.println(" Chaussette! Chaussette!! ");  //Début du jeu
+            System.out.println(" Chaussette! Chaussette!! ");  // Sortie du jeu
     }
 
 }
