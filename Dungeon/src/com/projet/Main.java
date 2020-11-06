@@ -13,6 +13,7 @@ public class Main {
         Donjon naheulbeuk = new Donjon();
         nabot.entre(naheulbeuk);
 
+        //apres l'entrée, nabot rencontre son enne
 
 
     }
