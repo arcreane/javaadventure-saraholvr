@@ -7,7 +7,7 @@ public class Monstres {
 
     Armes pouetpouet;
 
-    Monstres() {
+    Monstres() { //constructeur Monstres
         pouetpouet = new Armes();
 
         //Tout ce qui concerne le Magicien

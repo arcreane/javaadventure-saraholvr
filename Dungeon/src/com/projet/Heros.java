@@ -21,14 +21,12 @@ public class Heros {
     }
 
     public void recoitDommage(int pointDommage) {
-pv -= pointDommage;
+        pv -= pointDommage;
 
     }
-
 
     //objet Heros a pour instance: PV =200
     // possède 2 Armes: Flasque = taper Magicienne
     //                  Epée = taper Barbare
-
 
 }

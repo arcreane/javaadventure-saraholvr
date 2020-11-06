@@ -9,9 +9,9 @@ public class Main {
         Menu.lancerMenu(); //appel des methode qui sont dans le menu
         //pour le lancement du jeu
 
-        Heros michel = new Heros();
+        Heros nabot = new Heros();
         Donjon naheulbeuk = new Donjon();
-        michel.entre(naheulbeuk);
+        nabot.entre(naheulbeuk);
 
 
 
