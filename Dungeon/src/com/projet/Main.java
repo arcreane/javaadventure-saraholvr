@@ -9,13 +9,11 @@ public class Main {
         Menu.lancerMenu(); //appel des methode qui sont dans le menu
         //pour le lancement du jeu
 
-        Heros.aventurierHeros(); // appels des methodes en reference avec le heros
+        Heros michel = new Heros();
+        Donjon naheulbeuk = new Donjon();
+        michel.entre(naheulbeuk);
 
 
-        Armes.typeArmes(); //appel de metode concernant le types d'armes
-
-
-        Monstres.ennemis(); // appel de methode concernant les ennemis
 
     }
 }

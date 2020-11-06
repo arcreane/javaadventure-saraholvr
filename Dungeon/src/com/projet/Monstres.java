@@ -5,7 +5,10 @@ package com.projet;
 
 public class Monstres {
 
-    public static void ennemis() {
+    Armes pouetpouet;
+
+    Monstres() {
+        pouetpouet = new Armes();
 
         //Tout ce qui concerne le Magicien
 
@@ -16,4 +19,8 @@ public class Monstres {
     }
 
 
+    public void tape(Heros heros) {
+        heros.recoitDommage(pouetpouet.pointDommage);
+
+    }
 }

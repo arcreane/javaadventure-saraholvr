@@ -4,8 +4,15 @@ package com.projet;
 
 
 public class Armes {
+    int pointDommage;
+
+    Armes() {
+        pointDommage = 10;
+
+    }
 
     public static void typeArmes() {
+
 
         //Armes du Héros
         //Epée et ses caractéristiques
