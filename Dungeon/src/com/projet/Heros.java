@@ -4,11 +4,22 @@ package com.projet;
 
 public class Heros {
 
-    int pv;
+    //objet Heros a pour instance: PV =200
+    // possède 2 Armes: Flasque = taper Magicienne
+    //                  Epée = taper Barbare
 
-    Heros() {
-        pv = 200;
+    Armes epee; //déclaration de Type Armes nommé Epée
+    Armes flasque; //déclaration de Type Armes nommé Flasque
+    int pv; //déclaration de PointdeVie
 
+    public Heros() {
+        epee = new Armes(); //affectation de nouvelle arme de type épee à l'héros
+        flasque = new Armes(); // affectation de nouvelle arme de type flasque à l'héros
+
+        Heros() { //Affectation de PointdeVie à Heros
+            pv = 200;
+
+        }
     }
 
     public static void aventurierHeros() {
@@ -25,8 +36,6 @@ public class Heros {
 
     }
 
-    //objet Heros a pour instance: PV =200
-    // possède 2 Armes: Flasque = taper Magicienne
-    //                  Epée = taper Barbare
+
 
 }
