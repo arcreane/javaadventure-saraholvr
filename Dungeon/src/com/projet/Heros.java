@@ -3,7 +3,6 @@ package com.projet;
 //Tout ce qui englobera le héros
 
 public class Heros {
-
     //objet Heros a pour instance: PV =200
     // possède 2 Armes: Flasque = taper Magicienne
     //                  Epée = taper Barbare
@@ -15,7 +14,6 @@ public class Heros {
     public Heros() {
         epee = new Armes(); //affectation de nouvelle arme de type épee à l'héros
         flasque = new Armes(); // affectation de nouvelle arme de type flasque à l'héros
-
         Heros() { //Affectation de PointdeVie à Heros
             pv = 200;
 
@@ -34,8 +32,10 @@ public class Heros {
     public void recoitDommage(int pointDommage) {
         pv -= pointDommage;
 
+
     }
 
-
-
+    public boolean estvivant() { // Créer un paramètre "Est vivant" à heros pour qu'il puisse passer à la pièce suivante
+    return pv > 0; // Instruction pour savoir si heros est vivant (ou pas!)
+    }
 }
