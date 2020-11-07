@@ -9,6 +9,7 @@ public class Menu {
 
     public static void lancerMenu() {
 //Choix du joeur: jouer ou sortir
+
         System.out.println("Veuillez tapez 1 pour jouer, ou tout autre chiffre pour quitter.");
         Scanner lectureClavier = new Scanner(System.in);
 

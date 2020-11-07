@@ -14,7 +14,7 @@ public class Heros {
     public Heros() {
         epee = new Armes(); //affectation de nouvelle arme de type épee à l'héros
         flasque = new Armes(); // affectation de nouvelle arme de type flasque à l'héros
-        Heros() { //Affectation de PointdeVie à Heros
+        Heros();{ //Affectation de PointdeVie à Heros
             pv = 200;
 
         }
@@ -29,7 +29,7 @@ public class Heros {
 
     }
 
-    public void recoitDommage(int pointDommage) {
+    public void recoitDommage(int pointDommage) { // Point de dégât recu par le héros lors d'un combat
         pv -= pointDommage;
 
 
